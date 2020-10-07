@@ -1,0 +1,81 @@
+.navbar{
+  background: #787878;
+  border: 2px solid black;
+}
+.container .navbar-brand h1{
+  color: #000;
+}
+.navbar-brand a:hover, .navbar-brand a:focus {
+  text-decoration: none;
+}
+.container .navbar-toggler{
+  border: 2px solid;
+}
+.container .navbar-toggler:focus{
+  color: white;
+  outline: none;
+}
+.container .navbar-toggler .navbar-icon{
+  width: 1.5em;
+  height: 1.5em;
+}
+
+#collapsable-nav{
+  margin: 0px -16px -8px -16px;
+  text-align: center;
+  background: white;
+}
+#collapsable-nav .navbar-nav .nav-item .nav-link{
+  border: 1px solid black;
+  color:black;
+}
+#main-content{
+  margin-top: 100px;
+}
+#index-heading{
+  margin-top: 15px;
+  margin-bottom: 20px;
+}
+#Chicken,
+#Beef,
+#Sushi{
+    background: #787878;
+    padding: 15px;
+    margin: 0px auto 15px;
+}
+.visible-xs,
+.visible-sm,
+.visible-md,
+.visible-lg,
+.visible-xl {
+  display: none !important;
+}
+@media (max-width: 576px) {
+  .visible-xs{
+    display: block !important;
+  }
+}
+
+@media (min-width:577px) and (max-width: 767px) {
+  .visible-sm{
+    display: block !important;
+  }
+}
+
+@media (min-width: 768px) and (max-width: 991px) {
+  .visible-md{
+    display: block !important;
+  }
+}
+
+@media (min-width: 992px) and (max-width: 1199px) {
+  .visible-lg{
+    display: block !important;
+  }
+}
+
+@media (min-width: 1200px) {
+  .visible-xl{
+    display: block !important;
+  }
+}
